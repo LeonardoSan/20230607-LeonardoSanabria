@@ -1,0 +1,46 @@
+git config -l
+  502  git config --global user.email leonardosanh@gmail.com
+  503  git config -l
+  504  git init
+  505  git commit -m "commit 01 de Leonardo Sanabria"
+  506  git branch -M main
+  507  git remote add origin https://github.com/LeonardoSan/20230607-LeonardoSanabria.git
+  508  git push -u origin main
+  509  touch comandos.txt
+  510  touch main.js
+  511  touch index.html
+  512  git status
+  513  git add .
+  514  git commit -m "commit 01 de Leonardo Sanabria"
+  515  git push -u origin main
+  516  git checkout -b feature01
+  517  mkdir Terminal
+  518  mkdir Hardware
+  519  ls
+  520  cd Terminal/
+  521  touch resumen.txt
+  522  cd ..
+  523  ls
+  524  cd Terminal/
+  525  touch resumen.txt
+  526  git status
+  527  cd ..
+  528  ls
+  529  git status
+  530  ls
+  531  cd Hardware/
+  532  git status
+  533  cd..
+  534  cd ..
+  535  ls
+  536  git status
+  537  git add .
+  538  git commit -m "commit 02 de Leonardo Sanabria"
+  539  git push origin feature01
+  540  git checkout -b feature02
+  541  git status
+  542  git add .
+  543  git commit -m "commit 03 de Leonardo Sanabria"
+  544  git push origin feature02
+  545  git checkout main
+  546  history
